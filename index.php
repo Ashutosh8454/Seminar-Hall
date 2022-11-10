@@ -15,11 +15,11 @@
             <img src="img/logo.png" class="logo">
         </a>
         <nav>
-            <a href="login.html" target="_blank">
+            <a href="login.php" target="_blank">
                 <button class="login">Log In</button>
             </a>
             <hr class="vline">
-            <a href="signup.html" target="_blank">
+            <a href="signup.php" target="_blank">
                 <button class="signup">Sign_up</button>
             </a>
         </nav>
@@ -28,7 +28,7 @@
         <div class="container">
             <font class="f1">TO BOOK THE SEMINAR HALL</font>
             <font class="f2">click the button below</font>
-            <a href="book_now.html" target="_blank">
+            <a href="book_now.php" target="_blank">
                 <button class="book_now">Book now</button>
             </a>
             <a href="learn_more.html" target="_blank">
