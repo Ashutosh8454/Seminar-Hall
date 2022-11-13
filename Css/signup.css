@@ -148,4 +148,22 @@ input{
         padding-top: 12px;
         padding-bottom: 12px;
         padding-left: 8px;
+        align-items: center;
+}
+
+#login
+{
+    border: none;
+    background: #7B0707;
+    padding: 8px 4px;
+    margin: auto;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 8px;
 }
