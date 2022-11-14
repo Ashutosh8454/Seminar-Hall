@@ -10,11 +10,12 @@
 </head>
 
 <body>
-    <div class="home_page">
+    <nav id="navbar">
         <a href="https://mitacsc.ac.in/" target="_blank">
             <img src="img/logo.png" class="logo">
         </a>
-        <nav>
+        <div class="login_sign">
+
             <a href="login.php" target="_blank">
                 <button class="login">Log In</button>
             </a>
@@ -22,8 +23,10 @@
             <a href="signup.php" target="_blank">
                 <button class="signup">Sign_up</button>
             </a>
-        </nav>
-        <hr class="hline">
+        </div>
+    </nav>
+    <div class="home_page">
+        <hr class="hline"> 
         <img src="seminar hall.jpg" class="seminarhall">
         <div class="container">
             <font class="f1">TO BOOK THE SEMINAR HALL</font>
@@ -35,7 +38,7 @@
                 <button class="learn_more">Learn more</button>
             </a>
         </div>
-    </div>
+    </div> -->
     <div class="container2">
         <font class="re">
             Past Events :
@@ -68,5 +71,6 @@
             <img src="location.png" class="location">
         </a>
     </footer>
+    <p>Hello this is the dummy test Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere maiores repudiandae magnam nesciunt, alias sequi facilis dolores expedita quis deserunt cum et commodi dignissimos labore temporibus quidem quisquam! Sequi, repellendus!</p>
 </body>
 </html>

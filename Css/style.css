@@ -4,7 +4,10 @@
     height: 1024px;
     background: #FFFFFF;
 }
-
+#navbar{
+    display:flex;
+    justify-content:space-between;
+}
 .logo {
     position: absolute;
     width: 154px;

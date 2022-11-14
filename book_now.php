@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="Css/style.css">
 </head>
 
+
 <body>
     <h1 class="header">Booking Form :</h1>
     <hr class="hr">
@@ -52,6 +53,23 @@
             <li class="el">EVENT NAME (DATE)</li>
         </ul>
     </div>
+    <script>
+        let date=new Date();
+        let year=date.getFullYear();
+        let month=date.getMonth()+1;
+        let day=date.getDate();
+        console.log(year);
+        console.log(month);
+        console.log(day);
+        if (month<10) {
+            month="0"+month;
+        }
+        if (day<10) {
+            day="0"+day;
+        }
+        let today=year+"-"+month+"-"+day;
+        document.getElementById("i6").setAttribute("min",today);
+    </script>
 </body>
 
 </html>
