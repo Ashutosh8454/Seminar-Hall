@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking | Page</title>
     <link rel="stylesheet" href="Css/style.css">
+ 
 </head>
 
 <body>
@@ -53,5 +54,5 @@
         </ul>
     </div>
 </body>
-
+<script src="js/booknowval.js"></script>
 </html>
