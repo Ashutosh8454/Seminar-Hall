@@ -77,7 +77,7 @@
                 <a href="#">Forget Password</a>
             </div>-->
             <div class="signup">
-                <p>Don't have an account?<a href="#">sign up</a></p>
+                <p>Don't have an account?<a href="signup.php">sign up</a></p>
             </div>
 
     </body>

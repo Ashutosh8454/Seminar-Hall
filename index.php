@@ -47,7 +47,7 @@
                     <button class="book_now">Book now</button>
                 </a>
                 <div style="width: 20px"></div>
-                <a href="learn_more.html" target="_blank">
+                <a href="docs/learnmorepage.pdf" target="_blank">
                     <button class="learn_more">Learn more</button>
                 </a>
             </div>

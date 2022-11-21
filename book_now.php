@@ -215,7 +215,7 @@ if (isset($_POST['logout'])) {
 
 
                 <div class="tc">
-                    <font id="tnc">By clicking on this, I agree <a href="tnc" target="_blank" id="tac">"terms and
+                    <font id="tnc">By clicking on this, I agree <a href="docs/learnmorepage.pdf" target="_blank" id="tac">"terms and
                             conditions"</a></font>
                     <input type="checkbox" id="cb" required>
                 </div>
