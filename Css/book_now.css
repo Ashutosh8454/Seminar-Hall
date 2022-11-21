@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+.header {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 172.52%;
+}
+
+.hr {
+    border: 2px solid #751613;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+   
+   
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 100%;
+    
+    padding:5% 3%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rebeccapurple;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #751613;
+    flex-wrap: wrap;
+  
+}
+
+#box2 {
+    width:100%;
+    /* height: 700px; */
+   
+    
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 10px;
+    padding: 4% 2%;
+    
+}
+
+.box3 {
+    margin-top: 10px;
+    width: 100%;
+    height: 38px;
+    background: rgb(255, 255, 255);
+  
+}
+
+.ue {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.box4 {
+    position: relative;
+    /* padding:5px; */
+    /* padding: 0 10%;
+    margin: 40px auto 0; */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table-container {
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+
+.table {
+    table-layout: fixed;
+    margin-top: 10px;
+    width: 100%;
+    /* height: 100%; */
+    border-collapse: collapse;
+}
+
+.table thead {
+    background-color: white;
+}
+
+.table thead tr th {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.35px;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    padding: 12px;
+    vertical-align: top;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.table tbody tr td {
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: normal;
+    background-color: #d56561;
+    /* color: ; */
+    padding: 8px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+@media (max-width : 1000px) {
+    .box1{
+        /* padding: 10px; */
+        align-items: center;
+        width: 95%;
+    }
+
+    /* #cb{
+        position: relative;
+    } */
+
+    .tc #tnc{
+        /* margin: 10000px 0px;
+        align-items: initial; */
+        font-size: 12px;
+        /* background-color: #000000; */
+    }
+
+    .table thead {
+        display: none;
+    }
+
+    .table,
+    .table tbody,
+    .table tr,
+    .table td {
+        display: block;
+        width: 100%;
+    }
+
+    .table tr {
+        margin-bottom: 15px;
+    }
+
+    .table tbody tr td {
+        text-align: right;
+        padding-left: 50%;
+        color: black;
+        position: relative;
+    }
+
+    .table td:before {
+        content: attr(data-label);
+        color: black;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-weight: 600;
+        font-size: 14px;
+        text-align: left;
+    }
+  
+}
+
+.el {
+    color: #FFFFFF;
+    padding: 15px 0px;
+}
+
+input{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tc {
+    display: flex;
+    justify-content: center;
+    margin: 45px 10px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    line-height: 172.52%;
+    color: #000000;
+}
+
+#tac {
+    text-decoration: none;
+    color: #751613;
+}
+
+#tac:hover {
+    color: rgb(179, 53, 53);
+}
+
+#cb {
+    width: 12px;
+    height: 22px;
+    background: #D9D9D9;
+}
+
+#cb:hover {
+    cursor: pointer;
+    color: #751613;
+}
+
+.submit {
+    width: 140px;
+    height: 35px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #751613;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #b93b3b;
+}
+
+.subbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.logout{
+    
+    width: 140px;
+    height: 35px;
+    border: none;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: #751613;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 6px
+    
+}
+
+nav{
+      display: flex;
+      flex-direction:row;
+      justify-content: space-between;
+      align-items: center;
+}
+
+#datefetch{
+    display: flex;
+    width:auto;
+    
+    padding: 8px 8px;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+#fetch_details{
+    font-size: 16px;
+    margin: 4px 2%;
+}
+#select_date
+{
+    padding: 8px 8px;
+    margin-left: 2%;
+}
+#pselectdate{
+    
+    font-size: 20px;
+    color:#751613;
+}
+
+
+.hero-text
+{
+    text-align: center;
+    padding: 20px;
+    font-size:36px;
+    color: white;
+    font-weight:bold ;
+    margin-bottom: 10px;
+    display: flex;
+    background-image: url(../img/seminarhall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ justify-content: center;
+ padding: 5% 0;
+ opacity: 0.9;
+    
+}
+
+.hero-text p{
+    opacity: 1;
+    background-color: #751613;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+#bokslot{
+    
+    width: 350px;
+    color: white;
+
+    
+
+}
+#bokslot p{
+  
+    
+    margin: 20px 8px;
+}
+#p1{
+      font-size: 28px;
+      font-weight: bold;
+}
+#bookform
+{
+    
+    background-color:white;
+   
+    border: 2px solid white;
+    margin: 8px;
+    padding: 16px;
+    border-radius: 16px;
+    
+}
+
+#time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#bookform input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    outline: none;
+    border: 1px solid #2d2d2d;
+    border-radius: 16px;
+}
