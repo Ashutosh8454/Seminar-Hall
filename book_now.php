@@ -32,7 +32,7 @@ if (isset($_POST["submit"])) {
 
 
     $sql = "SELECT * FROM `main_table` 
-            WHERE pick_date = '$pick_date' AND teacher_id = $teacher_id";
+            WHERE pick_date = '$pick_date' ";
     $result = mysqli_query($con, $sql);
 
     $flag = 0;

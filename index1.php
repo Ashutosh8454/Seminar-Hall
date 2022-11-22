@@ -15,7 +15,7 @@
             <img src="img/logo.png" class="logo">
         </a>
         <nav>
-            <a href="login.php" target="_blank">
+            <a href="login.php">
                 <button class="login">Log In</button>
             </a>
             <hr class="vline">

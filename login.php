@@ -52,6 +52,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <link rel="stylesheet" type="text/css" href="Css/signup.css">
         
+        
 
     </head>
     <body> 
@@ -68,7 +69,7 @@
                 <input type="password" name="password" placeholder="Password" Id="password">
                 </span>
                 <div class="fid">
-                        <a href="#">Forget Password</a>
+                        <a href="forgot_page.php">Forget Password</a>
                     </div>
                 <!-- <button type="submit">Login</button> -->
                 <input type="submit" name="login" id="login" value="Login">
